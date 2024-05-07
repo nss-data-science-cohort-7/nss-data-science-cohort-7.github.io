@@ -48,7 +48,7 @@ function App() {
         cohortName={cohort.name}
         programName={cohort.program?.name}
         demoDate={cohort.demo_day_readable}
-        demoDayLink={cohort.demo_day_link}
+        demoDayLink="http://nashss.com/DSdemoday"
         navBarRef={navBarRef}
         heroRef={heroRef}
       />
